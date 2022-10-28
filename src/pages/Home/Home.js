@@ -7,15 +7,16 @@ function Home() {
 
         <>
         <Header />
+        <div className="homeContent">
+            <h1 className="homeTitle">Em desenvolvimento.</h1>
+            <h1 className="homeTitle">Acesse as demais páginas. ☝</h1>
+        </div>
         </>
  
-        
-        
+              
 )
         
 }
-        
     
-
 
 export default Home

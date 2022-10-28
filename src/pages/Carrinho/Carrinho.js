@@ -5,7 +5,7 @@ function Carrinho(){
     return(
         <>
         <Header />
-        <h1>Olá Carrinho</h1>
+        <h1>Olá, Carrinho</h1>
         </>
     )
 }

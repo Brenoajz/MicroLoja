@@ -16,7 +16,7 @@ function Header() {
             </a>
             <nav>
                 <ul className="menu">
-                    <li><a href="/">
+                    <li><a href="/sobre">
                     <FontAwesomeIcon icon={faQuestion} className="homeIcon"/>
                         </a></li>
                     <li><a href="/produtos">
@@ -29,7 +29,7 @@ function Header() {
             </nav>
         </header>
         
-
+// https://react-icons.github.io/react-icons
     )
 }
 

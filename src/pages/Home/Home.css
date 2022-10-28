@@ -1,0 +1,14 @@
+.homeContent {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 600px) {
+    .homeTitle {
+        margin-left: 2%;
+        font-size: 25px;
+    }
+}
