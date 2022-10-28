@@ -1,0 +1,118 @@
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 60vh;
+}
+.product {
+    width: 30vw;
+    height: 45vh;
+    border-radius: 10%;
+    background-color: #4b4b4b;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    border-width: 2%;
+    border: 5px solid #7159c1;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.title {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.image {
+    width: 10vw;
+    height: 20vh;
+    margin-bottom: 0;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #FFF;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-size-adjust: inherit;
+}
+.button {
+    padding: 2% 10%;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 7%;
+    margin: 10%;
+    margin-top: 0;
+    background-color: green;
+
+}
+.buttonTitle {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #FFF
+}
+
+
+/* MEDIA QUERY */
+
+
+@media (max-width: 600px)
+{
+  .content {
+
+    width: 80vw;
+    margin-top: 10%;
+    margin-right: 0;
+    flex-wrap: nowrap;
+    height: 90vh;
+    flex-direction: column;
+    margin-bottom: 70%;
+    align-items: center;
+    margin-left: 6%;
+  }
+  .product {
+    flex-direction: column;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 10%;
+    background-color: #4b4b4b;
+    margin-left: 10%;
+    border-width: 2%;
+    border: 5px solid #7159c1;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.button {
+    padding: 2% 10%;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 7%;
+    margin: 10%;
+    background-color: green;
+
+}
+.image {
+    width: 45vw;
+    height: 20vh;
+    margin-bottom: 0;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+
+}
+
+
+}
