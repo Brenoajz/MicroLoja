@@ -1,6 +1,6 @@
 import './Sobre.css'
 import Header from '../../components/Header/Header'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaGithub, FaInstagram } from 'react-icons/fa';
 
 
